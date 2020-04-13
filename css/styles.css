@@ -49,6 +49,13 @@ main > .intro {
 	font-weight: 600;
 }
 
+.into-text {
+	background: tomato;
+	font-size: 20px;
+	display: block;
+	color: greenyellow;
+}
+
 main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
