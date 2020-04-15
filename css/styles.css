@@ -28,3 +28,7 @@ main > .intro {
 	display: block;
 	color: black;
 }
+
+footer {
+	text-align: center;
+}
