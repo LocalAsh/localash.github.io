@@ -8,6 +8,11 @@ html {
 	font-size: 3em;
 }
 
+body {
+	background-image: url('/images/asiphe-bg.jpg');
+	background-size: cover;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -23,12 +28,19 @@ main > .intro {
 	font-weight: 600;
 }
 
+img {
+	border-radius: 50%;
+	width: 3.5rem;
+	margin: 0 auto;
+}
+
 .into-text {
-	font-size: 20px;
+	font-size: 2rem;
 	display: block;
 	color: black;
 }
 
 footer {
 	text-align: center;
+	/* background-color: rgb(124, 167, 167); */
 }
