@@ -1,7 +1,6 @@
-/* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Jua', sans-serif;
 }
 
 .icons-social i {
@@ -13,6 +12,28 @@ body {
 	background-size: cover;
 }
 
+.personal__header {
+	width: 100%;
+}
+
+.personal__header_items {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.personal__header_item {
+	display: inline-block;
+	margin: 8px 16px;
+	background: lightgoldenrodyellow;
+	border: lightgoldenrodyellow solid 1px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -23,9 +44,9 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
+	color: #fff;
 }
 
 img {
@@ -37,8 +58,36 @@ img {
 .into-text {
 	font-size: 2rem;
 	display: block;
-	color: black;
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 20px;
 }
+
+.personal__details__info {
+	display: inline-block;
+	list-style: none;
+	border: #000 solid 2px;
+	border-radius: 5px;
+	padding: 8px 16px;
+	margin: 0px 20px;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.personal__detail {
+	background: lightgoldenrodyellow;
+	border-radius: 2px;
+	color: #000;
+	padding: 6px 12px;
+	margin: 4px 10px;
+}
+.personal__details_heading {
+	font-weight: bold;
+	background: tomato;
+	border-radius: 5px;
+	margin: 5px 10px 10px 10px;
+}
+
 
 footer {
 	text-align: center;
