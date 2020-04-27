@@ -9,7 +9,21 @@ body {
 }
 
 .personal__header {
-	width: 100%;
+	position: fixed;
+	right: 0;
+}
+
+.personal__header_image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	margin: 5px 0 0 10px;
+	border-radius: 50%;
+	background: #fafad2;
+	border: 2px solid #ff6347;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .personal__header_items {
@@ -36,6 +50,7 @@ body {
 
 .personal__header_item_link:hover {
 	border-bottom: 2px solid #ff6347;
+	border: #fff solid 2px;
 }
 
 main {
@@ -73,6 +88,11 @@ img {
 	border-bottom: 3px solid #ff6347;
 }
 
+.technologies__text {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+
 .personal__details__info {
 	display: inline-block;
 	list-style: none;
@@ -87,6 +107,17 @@ img {
 
 .social__connects {
 	margin-top: 32px;
+}
+
+.social__connect_item {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background: #87cefa;
+	border-radius: 50%;
+	margin: 20px 8px;
+	padding: 12px;
+	border: 2px solid #ff6347;
 }
 
 .social__connects h6 {
