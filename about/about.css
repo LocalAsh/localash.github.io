@@ -10,3 +10,28 @@
     left: 10px;
     text-align: center;
 }
+
+
+.about__content {
+    border: 3px solid #fff;
+    width: 95%;
+    height: 430px;
+    border-left-style: none;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.more-info {
+    border: 3px solid #fff;
+    width: 45%;
+    height: 430px;
+    border-right-style: none;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    border-radius: 8px;
+}
